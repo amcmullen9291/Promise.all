@@ -1,0 +1,178 @@
+#Notes
+
+Show a definition of "aging" on hover and get pictures of each cheese.
+Find a goofy picture of a stinky cheese that lends itself to snooby/stuck-up, etc
+May choose to remove the Cotija, Mozzarella, Manchego, Parmigiano-Reggiano, and Taleggio entries.
+
+Roquefort
+beverage1: Barley Wine
+beverage2: Dubbel
+beverage3: IPA
+beverage4: Lambic
+beverage5: Saison
+beverage6: Triple
+Country of Origin: France
+Type of milk:Sheep
+Aging: At least five months.
+Tasting Notes: It has a moist, crumbly paste, and a sharp, sweet and nutty flavor from the yeast with distinct grassiness from the sheep's milk. It's best eaten in the fall, when cheese made from early spring milk is just coming to market.
+Best Uses: Eaten as is, or with nuts and honey.
+Personal notes:
+
+Camembert
+beverage1: Altbier
+beverage2: Bock
+beverage3: Brown Ale
+beverage4: Doppelbock
+beverage5: Pale Ale
+beverage6: Saison
+beverage7: Kölsch
+Country of Origin: France (Normandy)
+Type of milk: Cow
+Aging: At least three weeks
+Tasting Notes: You will not find any raw milk Camembert in the U.S. Rich, buttery, and spreadable, Camembert has a mild, mushroomy aroma.
+Best Uses: Eaten as is, on sandwiches, baked in a crust, breaded and deep-fried (giddy-up!)
+
+Cotija
+beverage1: A beer, margarita or michelada (a beer cocktail with lime juice, hot sauce, Worcestershire sauce and spices) is the obvious go-to beverage for Mexican food, but they can completely undercut the flavors of a delicate ceviche or overpower a simple tostada or tamale.
+beverage2:
+beverage3:
+beverage4:
+beverage5:
+Country of Origin: Mexico
+Type of milk: Cow
+Aging: At least 3 months.
+Tasting Notes: Younger cheeses are mild and salty, somewhat like a young feta. As the cheese ages, it acquires nuttier, tangier flavors and a drier, coarser texture.
+Best Uses: On tacos, salads, in soups, over rice, on casseroles, over beans, in guacamole, etc.
+
+Chèvre
+beverage1: Hefeweizen
+beverage2: Witbier
+beverage3: Lambic
+beverage4: Weissbock
+beverage5:
+Country of Origin:  France
+Type of milk: Goat
+Aging: Varies
+Tasting Notes: The French word chèvre literally translate to "goat," and is used to refer to any cheese made from goat's milk.It is unaged and eaten almost immediately after it is made. Fresh chèvre tends to be moist, bright and acidic, with a lemony flavor and slightly chalky finish in the mouth.
+Best Uses: Crumbled in salads, breaded and fried, in sandwiches, in macaroni and cheese.
+
+Feta
+beverage1: Biere de Garde
+beverage2: Hefeweizen
+beverage3: IPA
+beverage4: Pale Ale
+beverage5: Weissbier
+beverage6: Witbier
+beverage7: ESB
+Country of Origin: Greece
+Type of milk: Sheep and goat
+Aging: About 3 months
+Tasting Notes: Feta is one of the many cheese worldwide to be a protected designation of origin product, meaning that a cheese may only bear the label "feta" in the E.U. if it comes from either mainland Greece or Lesbos, and is made with at least 70% sheep's milk (the remainder must be goat's milk). A brined cheese, it is made by soaking freshly pressed curds in salt water. Tangy and moist, feta can range from completely crumbly to moderately creamy and pairs well with fresh summer fruit.
+Best Uses: Broiled with olive oil. Crumbled in salads. Sandwiches. Use in place of Cotija in tacos and other Mexican dishes.
+
+Mozzarella
+beverage1:
+beverage2:
+beverage3:
+beverage4:
+beverage5:
+Country of Origin:  Italy (Campania)
+Type of milk: Cow or Water Buffalo
+Aging: None
+Tasting Notes: The balls of cheese can then either be sold fresh, or packed in a salty brine to add flavor. Fresh and dairy rich, mozzarella is prized for its texture and mild creamy flavor.
+Best Uses: Fresh with a drizzle of olive oil, coarse salt and pepper. With tomatoes in a sandwich. Pizza!
+
+Emmental
+beverage1: Doppelbock
+beverage2: Dortmunder Export
+beverage3: Old Ale
+beverage4: Oktoberfest
+beverage5:Gueuze
+beverage6: ESBs
+Country of Origin: Switzerland
+Type of milk: Cow
+Aging: at least 4 months
+Tasting Notes: This cheese has a certain sweetness with a piquancy that hits the back of the tongue on the finish. What is more, like all Alpine cheeses, it is a great melter.
+Best Uses: Fondue, grilled cheese, casseroles.
+
+Cheddar
+beverage1: Pilsner
+beverage2: American Amber Lager
+beverage3: Imperial Stout
+beverage4: Pale Ale
+beverage5: Barley Wine
+beverage6: IPA
+beverage7: Lambic
+Country of Origin: England
+Type of milk: Cow
+Aging: No minimum, but good ones are generally aged at least one year
+Tasting Notes: Cheddar cheeses made in a traditional fashion are dry and crumbly in texture, with a deep, tangy, nutty flavor. A far cry from the smooth mild American-style cheddars you might find on top of a burger.
+Best Uses: As is, in sandwiches, grilled cheese, casseroles.
+
+Gouda
+beverage1: Brown Ale
+beverage2: Doppelbock
+beverage3: Imperial Stout
+beverage4: Old Ale
+beverage5: Gueuze
+beverage6: Hefeweizen
+Country of Origin:Netherlands
+Type of milk: Cow
+Aging: At least 4 weeks, but better ones are aged at least a year
+Tasting Notes: Flavor can vary wildly from the mild, creamy wax-coated lunchbox versions of our youth to those specimens that are hard, crumbly, and deeply flavorful. Long-aged goudas will have a crunchy texture.
+Best Uses: Young they can be melted. Aged cheeses are best as-is or grated into salads or over casseroles.
+
+Taleggio
+beverage1:
+beverage2:
+beverage3:
+beverage4:
+beverage5:
+Country of Origin: Italy (Lombardy)
+Type of milk: Cow
+Aging: Six to ten weeks
+Tasting Notes:Taleggio smells sort of like... feet. Rich, buttery, meaty, feet.
+Best Uses: As is.
+
+Parmigiano-Reggiano
+beverage1:
+beverage2:
+beverage3:
+beverage4:
+beverage5:
+Country of Origin: Italy
+Type of milk: Cow
+Aging: At least 12 months
+Tasting Notes: True Parmigiano-Reggiano, a protected cheese that can only be produced in Emilia-Romagna and Lombardia in Italy. Aged for a minimum of 12 months and a maximum of 36, it's a hard, dry, crumbly cheese that has great crunch and deep caramel-y, nutty flavors.
+Best Uses: Grated on salads and pastas. The harder, saltier rinds are perfect for adding flavor to many Italian soups.
+
+Manchego
+beverage1:
+beverage2:
+beverage3:
+beverage4:
+beverage5:
+Country of Origin: Spain
+Type of milk: Sheep
+Aging: 60 days to 2 years
+Tasting Notes: Younger Manchegos have a buttery, rich texture that borders on creamy, while the aged version develops a deeply salty flavor.
+Best Uses: As is. Spanish membrillo (quince paste) is the ideal accompaniment for it.
+
+Monterey Jack
+beverage1: Pale Ale
+beverage2: Oktoberfest
+beverage3: Pilsner
+beverage4: Amber Lager
+beverage5: American
+beverage6: Witbier
+Kind of Cheese:
+Country of Origin: United States of America (California)
+Type of milk: Cow
+Aging: About one month
+Tasting Notes: Very mild and buttery in flavor with a bit of tang, Monterey Jack is one of the few all-American cheeses.
+Best Uses: Melted in casseroles, grilled cheese, over chili, cheese dip, any time you want a good melting cheese.
+
+Aging definition: Cheese ripening, alternatively cheese maturation or affinage,
+is a process in cheesemaking. It is responsible for the distinct flavour of cheese, and
+through the modification of "ripening agents", determines the features that define
+many different varieties of cheeses, such as taste, texture, and body.

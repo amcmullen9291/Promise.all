@@ -28,8 +28,11 @@ public class Cheese {
     @Column(name = "beverage5")
     private String beverage5Name;
 
-    @Column(name = "kind")
-    private String kindOfCheese;
+    @Column(name = "beverage6")
+    private String beverage6Name;
+
+    @Column(name = "beverage7")
+    private String beverage7Name;
 
     @Column(name = "origin")
     private String countryOfOrigin;
@@ -49,7 +52,11 @@ public class Cheese {
     @Column(name = "notes")
     private String notes;
 
-    public Cheese(long id, String cheeseName, String beverage1Name, String beverage2Name, String beverage3Name, String beverage4Name, String beverage5Name, String kindOfCheese, String countryOfOrigin, String agingPeriod, String typeOfMilk, String taste, String bestUses, String notes) {
+    @Column(name = "image")
+    private String image;
+
+
+    public Cheese(long id, String cheeseName, String beverage1Name, String beverage2Name, String beverage3Name, String beverage4Name, String beverage5Name, String beverage6Name, String beverage7, String countryOfOrigin, String typeOfMilk, String agingPeriod,  String taste, String bestUses, String notes) {
         this.id = id;
         this.cheeseName = cheeseName;
         this.beverage1Name = beverage1Name;
@@ -57,10 +64,11 @@ public class Cheese {
         this.beverage3Name = beverage3Name;
         this.beverage4Name = beverage4Name;
         this.beverage5Name = beverage5Name;
-        this.kindOfCheese = kindOfCheese;
+        this.beverage6Name = beverage6Name;
+        this.beverage7Name = beverage7Name;
         this.countryOfOrigin = countryOfOrigin;
         this.agingPeriod = agingPeriod;
-        TypeOfMilk = typeOfMilk;
+        this.TypeOfMilk = typeOfMilk;
         this.taste = taste;
         this.bestUses = bestUses;
         this.notes = notes;
@@ -118,12 +126,20 @@ public class Cheese {
         this.beverage5Name = beverage5Name;
     }
 
-    public String getKindOfCheese() {
-        return kindOfCheese;
+    public String getBeverage6Name() {
+        return beverage5Name;
     }
 
-    public void setKindOfCheese(String kindOfCheese) {
-        this.kindOfCheese = kindOfCheese;
+    public void setBeverage6Name(String beverage6Name) {
+        this.beverage6Name = beverage6Name;
+    }
+
+    public String getBeverage7Name() {
+        return beverage7Name;
+    }
+
+    public void setBeverage7Name(String beverage7Name) {
+        this.beverage7Name = beverage7Name;
     }
 
     public String getCountryOfOrigin() {
@@ -173,4 +189,5 @@ public class Cheese {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
 }
