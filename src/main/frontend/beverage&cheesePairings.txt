@@ -1,16 +1,19 @@
 #Notes
 
-Show a definition of "aging" on hover and get pictures of each cheese.
+on hover show definition of aging.
+pictures of each cheese.
+
 Find a goofy picture of a stinky cheese that lends itself to snooby/stuck-up, etc
+
 May choose to remove the Cotija, Mozzarella, Manchego, Parmigiano-Reggiano, and Taleggio entries.
 
 Roquefort
-beverage1: Barley Wine
+beverage1: Barley Wine -II
 beverage2: Dubbel
-beverage3: IPA
-beverage4: Lambic
-beverage5: Saison
-beverage6: Triple
+beverage3: IPA - IIII
+beverage4: Lambic -III
+beverage5: Saison -II
+beverage6: Triple -II
 Country of Origin: France
 Type of milk:Sheep
 Aging: At least five months.
@@ -20,12 +23,12 @@ Personal notes:
 
 Camembert
 beverage1: Altbier
-beverage2: Bock
-beverage3: Brown Ale
-beverage4: Doppelbock
-beverage5: Pale Ale
-beverage6: Saison
-beverage7: Kölsch
+beverage2: Bock -II
+beverage3: Brown Ale -II
+beverage4: Doppelbock-III
+beverage5: Pale Ale -IIII
+beverage6: Saison -II
+beverage7: Kölsch -II
 Country of Origin: France (Normandy)
 Type of milk: Cow
 Aging: At least three weeks
@@ -45,9 +48,9 @@ Tasting Notes: Younger cheeses are mild and salty, somewhat like a young feta. A
 Best Uses: On tacos, salads, in soups, over rice, on casseroles, over beans, in guacamole, etc.
 
 Chèvre
-beverage1: Hefeweizen
-beverage2: Witbier
-beverage3: Lambic
+beverage1: Hefeweizen -III
+beverage2: Witbier -III
+beverage3: Lambic -III
 beverage4: Weissbock
 beverage5:
 Country of Origin:  France
@@ -58,12 +61,12 @@ Best Uses: Crumbled in salads, breaded and fried, in sandwiches, in macaroni and
 
 Feta
 beverage1: Biere de Garde
-beverage2: Hefeweizen
-beverage3: IPA
-beverage4: Pale Ale
+beverage2: Hefeweizen -III
+beverage3: IPA - IIII
+beverage4: Pale Ale -IIII
 beverage5: Weissbier
-beverage6: Witbier
-beverage7: ESB
+beverage6: Witbier -III
+beverage7: ESB -III
 Country of Origin: Greece
 Type of milk: Sheep and goat
 Aging: About 3 months
@@ -83,26 +86,26 @@ Tasting Notes: The balls of cheese can then either be sold fresh, or packed in a
 Best Uses: Fresh with a drizzle of olive oil, coarse salt and pepper. With tomatoes in a sandwich. Pizza!
 
 Emmental
-beverage1: Doppelbock
+beverage1: Doppelbock -III
 beverage2: Dortmunder Export
-beverage3: Old Ale
-beverage4: Oktoberfest
-beverage5:Gueuze
-beverage6: ESBs
+beverage3: Old Ale -II
+beverage4: Oktoberfest -II
+beverage5:Bock -II
+beverage6: ESB -III
 Country of Origin: Switzerland
 Type of milk: Cow
 Aging: at least 4 months
 Tasting Notes: This cheese has a certain sweetness with a piquancy that hits the back of the tongue on the finish. What is more, like all Alpine cheeses, it is a great melter.
 Best Uses: Fondue, grilled cheese, casseroles.
 
-Cheddar
-beverage1: Pilsner
-beverage2: American Amber Lager
-beverage3: Imperial Stout
-beverage4: Pale Ale
-beverage5: Barley Wine
-beverage6: IPA
-beverage7: Lambic
+Cheddar  (also you have amber lager for a backup)
+beverage1: Pilsner -II
+beverage2: Triple -II
+beverage3: Imperial Stout -II
+beverage4: Pale Ale -IIII
+beverage5: Barley Wine - II
+beverage6: IPA -IIII
+beverage7: Lambic -III
 Country of Origin: England
 Type of milk: Cow
 Aging: No minimum, but good ones are generally aged at least one year
@@ -110,12 +113,13 @@ Tasting Notes: Cheddar cheeses made in a traditional fashion are dry and crumbly
 Best Uses: As is, in sandwiches, grilled cheese, casseroles.
 
 Gouda
-beverage1: Brown Ale
-beverage2: Doppelbock
-beverage3: Imperial Stout
-beverage4: Old Ale
-beverage5: Gueuze
-beverage6: Hefeweizen
+beverage1: Brown Ale -II
+beverage2: Doppelbock -III
+beverage3: Witbier -IIII
+beverage4: ESB -III
+beverage5: Imperial Stout -II
+beverage6: Hefeweizen -III
+beverage7: Old Ale -II
 Country of Origin:Netherlands
 Type of milk: Cow
 Aging: At least 4 weeks, but better ones are aged at least a year
@@ -159,12 +163,12 @@ Tasting Notes: Younger Manchegos have a buttery, rich texture that borders on cr
 Best Uses: As is. Spanish membrillo (quince paste) is the ideal accompaniment for it.
 
 Monterey Jack
-beverage1: Pale Ale
-beverage2: Oktoberfest
-beverage3: Pilsner
-beverage4: Amber Lager
-beverage5: American
-beverage6: Witbier
+beverage1: Pale Ale -IIII
+beverage2: Oktoberfest -II
+beverage3: Pilsner -II
+beverage4: Kölsch -II
+beverage5: IPA -IIII
+beverage6: Witbier -IIII
 Kind of Cheese:
 Country of Origin: United States of America (California)
 Type of milk: Cow
@@ -174,5 +178,5 @@ Best Uses: Melted in casseroles, grilled cheese, over chili, cheese dip, any tim
 
 Aging definition: Cheese ripening, alternatively cheese maturation or affinage,
 is a process in cheesemaking. It is responsible for the distinct flavour of cheese, and
-through the modification of "ripening agents", determines the features that define
-many different varieties of cheeses, such as taste, texture, and body.
+through the modification of "ripening agents", determines the features that define many different
+varieties of cheeses, such as taste, texture, and body.
