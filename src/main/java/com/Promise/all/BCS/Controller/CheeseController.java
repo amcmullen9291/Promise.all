@@ -35,18 +35,19 @@ public class CheeseController {
             throws ResourceNotFoundException {
         Cheese currentCheese = (Cheese) cheeseRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(id + ": not found"));
 
-        currentCheese.setCheeseName(cheese.getCheeseName());
-        currentCheese.setBeverage1Name(cheese.getBeverage1Name());
-        currentCheese.setBeverage2Name(cheese.getBeverage2Name());
-        currentCheese.setBeverage3Name(cheese.getBeverage3Name());
-        currentCheese.setBeverage4Name(cheese.getBeverage4Name());
-        currentCheese.setBeverage5Name(cheese.getBeverage5Name());
-        currentCheese.setAgingPeriod(cheese.getAgingPeriod());
-        currentCheese.setBestUses(cheese.getBestUses());
-        currentCheese.setKindOfCheese(cheese.getKindOfCheese());
+        currentCheese.setCheese_name(cheese.getCheese_name());
+        currentCheese.setBeverage1_name(cheese.getBeverage1_name());
+        currentCheese.setBeverage2_name(cheese.getBeverage2_name());
+        currentCheese.setBeverage3_name(cheese.getBeverage3_name());
+        currentCheese.setBeverage4_name(cheese.getBeverage4_name());
+        currentCheese.setBeverage5_name(cheese.getBeverage5_name());
+        currentCheese.setBeverage6_name(cheese.getBeverage6_name());
+        currentCheese.setBeverage7_name(cheese.getBeverage7_name());
+        currentCheese.setAging_period(cheese.getAging_period());
+        currentCheese.setBest_uses(cheese.getBest_uses());
         currentCheese.setTaste(currentCheese.getTaste());
-        currentCheese.setTypeOfMilk(cheese.getTypeOfMilk());
-        currentCheese.setCountryOfOrigin(cheese.getCountryOfOrigin());
+        currentCheese.setType_of_milk(cheese.getType_of_milk());
+        currentCheese.setCountry_of_origin(cheese.getCountry_of_origin());
         currentCheese.setNotes(cheese.getNotes());
         currentCheese = cheeseRepository.save(cheese);
 

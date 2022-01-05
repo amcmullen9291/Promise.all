@@ -11,43 +11,43 @@ public class Cheese {
     private long id;
 
     @Column(name = "cheese")
-    private String cheeseName;
+    private String cheese_name;
 
     @Column(name = "beverage1")
-    private String beverage1Name;
+    private String beverage1_name;
 
     @Column(name = "beverage2")
-    private String beverage2Name;
+    private String beverage2_name;
 
     @Column(name = "beverage3")
-    private String beverage3Name;
+    private String beverage3_name;
 
     @Column(name = "beverage4")
-    private String beverage4Name;
+    private String beverage4_name;
 
     @Column(name = "beverage5")
-    private String beverage5Name;
+    private String beverage5_name;
 
     @Column(name = "beverage6")
-    private String beverage6Name;
+    private String beverage6_name;
 
     @Column(name = "beverage7")
-    private String beverage7Name;
+    private String beverage7_name;
 
     @Column(name = "origin")
-    private String countryOfOrigin;
+    private String country_of_origin;
 
     @Column(name = "aging_period")
-    private String agingPeriod;
+    private String aging_period;
 
     @Column(name = "milk_type")
-    private String TypeOfMilk;
+    private String type_of_milk;
 
     @Column(name = "taste")
     private String taste;
 
     @Column(name = "best_uses")
-    private String bestUses;
+    private String best_uses;
 
     @Column(name = "notes")
     private String notes;
@@ -55,115 +55,116 @@ public class Cheese {
     @Column(name = "image")
     private String image;
 
-
-    public Cheese(long id, String cheeseName, String beverage1Name, String beverage2Name, String beverage3Name, String beverage4Name, String beverage5Name, String beverage6Name, String beverage7, String countryOfOrigin, String typeOfMilk, String agingPeriod,  String taste, String bestUses, String notes) {
+    public Cheese(long id, String cheese_name, String beverage1_name, String beverage2_name, String beverage3_name, String beverage4_name, String beverage5_name, String beverage6_name, String beverage7_name, String country_of_origin, String aging_period, String type_of_milk, String taste, String best_uses, String notes, String image) {
         this.id = id;
-        this.cheeseName = cheeseName;
-        this.beverage1Name = beverage1Name;
-        this.beverage2Name = beverage2Name;
-        this.beverage3Name = beverage3Name;
-        this.beverage4Name = beverage4Name;
-        this.beverage5Name = beverage5Name;
-        this.beverage6Name = beverage6Name;
-        this.beverage7Name = beverage7Name;
-        this.countryOfOrigin = countryOfOrigin;
-        this.agingPeriod = agingPeriod;
-        this.TypeOfMilk = typeOfMilk;
+        this.cheese_name = cheese_name;
+        this.beverage1_name = beverage1_name;
+        this.beverage2_name = beverage2_name;
+        this.beverage3_name = beverage3_name;
+        this.beverage4_name = beverage4_name;
+        this.beverage5_name = beverage5_name;
+        this.beverage6_name = beverage6_name;
+        this.beverage7_name = beverage7_name;
+        this.country_of_origin = country_of_origin;
+        this.aging_period = aging_period;
+        this.type_of_milk = type_of_milk;
         this.taste = taste;
-        this.bestUses = bestUses;
+        this.best_uses = best_uses;
         this.notes = notes;
+        this.image = image;
     }
 
     public long getId() {
         return id;
     }
 
-    public String getCheeseName() {
-        return cheeseName;
+
+    public String getCheese_name() {
+        return cheese_name;
     }
 
-    public void setCheeseName(String cheeseName) {
-        this.cheeseName = cheeseName;
+    public void setCheese_name(String cheese_name) {
+        this.cheese_name = cheese_name;
     }
 
-    public String getBeverage1Name() {
-        return beverage1Name;
+    public String getBeverage1_name() {
+        return beverage1_name;
     }
 
-    public void setBeverage1Name(String beverage1Name) {
-        this.beverage1Name = beverage1Name;
+    public void setBeverage1_name(String beverage1_name) {
+        this.beverage1_name = beverage1_name;
     }
 
-    public String getBeverage2Name() {
-        return beverage2Name;
+    public String getBeverage2_name() {
+        return beverage2_name;
     }
 
-    public void setBeverage2Name(String beverage2Name) {
-        this.beverage2Name = beverage2Name;
+    public void setBeverage2_name(String beverage2_name) {
+        this.beverage2_name = beverage2_name;
     }
 
-    public String getBeverage3Name() {
-        return beverage3Name;
+    public String getBeverage3_name() {
+        return beverage3_name;
     }
 
-    public void setBeverage3Name(String beverage3Name) {
-        this.beverage3Name = beverage3Name;
+    public void setBeverage3_name(String beverage3_name) {
+        this.beverage3_name = beverage3_name;
     }
 
-    public String getBeverage4Name() {
-        return beverage4Name;
+    public String getBeverage4_name() {
+        return beverage4_name;
     }
 
-    public void setBeverage4Name(String beverage4Name) {
-        this.beverage4Name = beverage4Name;
+    public void setBeverage4_name(String beverage4_name) {
+        this.beverage4_name = beverage4_name;
     }
 
-    public String getBeverage5Name() {
-        return beverage5Name;
+    public String getBeverage5_name() {
+        return beverage5_name;
     }
 
-    public void setBeverage5Name(String beverage5Name) {
-        this.beverage5Name = beverage5Name;
+    public void setBeverage5_name(String beverage5_name) {
+        this.beverage5_name = beverage5_name;
     }
 
-    public String getBeverage6Name() {
-        return beverage5Name;
+    public String getBeverage6_name() {
+        return beverage6_name;
     }
 
-    public void setBeverage6Name(String beverage6Name) {
-        this.beverage6Name = beverage6Name;
+    public void setBeverage6_name(String beverage6_name) {
+        this.beverage6_name = beverage6_name;
     }
 
-    public String getBeverage7Name() {
-        return beverage7Name;
+    public String getBeverage7_name() {
+        return beverage7_name;
     }
 
-    public void setBeverage7Name(String beverage7Name) {
-        this.beverage7Name = beverage7Name;
+    public void setBeverage7_name(String beverage7_name) {
+        this.beverage7_name = beverage7_name;
     }
 
-    public String getCountryOfOrigin() {
-        return countryOfOrigin;
+    public String getCountry_of_origin() {
+        return country_of_origin;
     }
 
-    public void setCountryOfOrigin(String countryOfOrigin) {
-        this.countryOfOrigin = countryOfOrigin;
+    public void setCountry_of_origin(String country_of_origin) {
+        this.country_of_origin = country_of_origin;
     }
 
-    public String getAgingPeriod() {
-        return agingPeriod;
+    public String getAging_period() {
+        return aging_period;
     }
 
-    public void setAgingPeriod(String agingPeriod) {
-        this.agingPeriod = agingPeriod;
+    public void setAging_period(String aging_period) {
+        this.aging_period = aging_period;
     }
 
-    public String getTypeOfMilk() {
-        return TypeOfMilk;
+    public String getType_of_milk() {
+        return type_of_milk;
     }
 
-    public void setTypeOfMilk(String typeOfMilk) {
-        TypeOfMilk = typeOfMilk;
+    public void setType_of_milk(String type_of_milk) {
+        this.type_of_milk = type_of_milk;
     }
 
     public String getTaste() {
@@ -174,12 +175,12 @@ public class Cheese {
         this.taste = taste;
     }
 
-    public String getBestUses() {
-        return bestUses;
+    public String getBest_uses() {
+        return best_uses;
     }
 
-    public void setBestUses(String bestUses) {
-        this.bestUses = bestUses;
+    public void setBest_uses(String best_uses) {
+        this.best_uses = best_uses;
     }
 
     public String getNotes() {
@@ -190,4 +191,12 @@ public class Cheese {
         this.notes = notes;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }
+
