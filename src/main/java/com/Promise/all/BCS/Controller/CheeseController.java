@@ -11,13 +11,13 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/cheeses")
+@RequestMapping("/")
 public class CheeseController {
 
     @Autowired
     private CheeseRepository cheeseRepository;
 
-    @GetMapping("/cheeses")
+    @GetMapping("/cheeses/")
     @CrossOrigin(origins = {"http://localhost:3000", " http://192.168.1.69:3000", "http://localhost:8080"})
     public List<Cheese> getCheeses(){
         return cheeseRepository.findAll();
