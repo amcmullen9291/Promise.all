@@ -10,28 +10,28 @@ public class Cheese {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "cheese")
+    @Column(name = "cheese_name")
     private String cheese_name;
 
-    @Column(name = "beverage1")
+    @Column(name = "beverage1_name")
     private String beverage1_name;
 
-    @Column(name = "beverage2")
+    @Column(name = "beverage2_name")
     private String beverage2_name;
 
-    @Column(name = "beverage3")
+    @Column(name = "beverage3_name")
     private String beverage3_name;
 
-    @Column(name = "beverage4")
+    @Column(name = "beverage4_name")
     private String beverage4_name;
 
-    @Column(name = "beverage5")
+    @Column(name = "beverage5_name")
     private String beverage5_name;
 
-    @Column(name = "beverage6")
+    @Column(name = "beverage6_name")
     private String beverage6_name;
 
-    @Column(name = "beverage7")
+    @Column(name = "beverage7_name")
     private String beverage7_name;
 
     @Column(name = "origin")
@@ -74,10 +74,11 @@ public class Cheese {
         this.image = image;
     }
 
+    public Cheese(){}
+
     public long getId() {
         return id;
     }
-
 
     public String getCheese_name() {
         return cheese_name;
