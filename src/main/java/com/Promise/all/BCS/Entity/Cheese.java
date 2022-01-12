@@ -34,17 +34,17 @@ public class Cheese {
     @Column(name = "beverage7_name")
     private String beverage7_name;
 
-    @Column(name = "origin")
+    @Column(name = "country_of_origin")
     private String country_of_origin;
 
     @Column(name = "aging_period")
     private String aging_period;
 
-    @Column(name = "milk_type")
+    @Column(name = "type_of_milk")
     private String type_of_milk;
 
-    @Column(name = "taste")
-    private String taste;
+    @Column(name = "tasting_notes")
+    private String tasting_notes;
 
     @Column(name = "best_uses")
     private String best_uses;
@@ -55,7 +55,7 @@ public class Cheese {
     @Column(name = "image")
     private String image;
 
-    public Cheese(long id, String cheese_name, String beverage1_name, String beverage2_name, String beverage3_name, String beverage4_name, String beverage5_name, String beverage6_name, String beverage7_name, String country_of_origin, String aging_period, String type_of_milk, String taste, String best_uses, String notes, String image) {
+    public Cheese(long id, String cheese_name, String beverage1_name, String beverage2_name, String beverage3_name, String beverage4_name, String beverage5_name, String beverage6_name, String beverage7_name, String country_of_origin, String aging_period, String type_of_milk, String tasting_notes, String best_uses, String notes, String image) {
         this.id = id;
         this.cheese_name = cheese_name;
         this.beverage1_name = beverage1_name;
@@ -68,7 +68,7 @@ public class Cheese {
         this.country_of_origin = country_of_origin;
         this.aging_period = aging_period;
         this.type_of_milk = type_of_milk;
-        this.taste = taste;
+        this.tasting_notes = tasting_notes;
         this.best_uses = best_uses;
         this.notes = notes;
         this.image = image;
@@ -168,12 +168,12 @@ public class Cheese {
         this.type_of_milk = type_of_milk;
     }
 
-    public String getTaste() {
-        return taste;
+    public String getTasting_notes() {
+        return tasting_notes;
     }
-
-    public void setTaste(String taste) {
-        this.taste = taste;
+    
+    public void setTasting_notes(String tasting_notes) {
+        this.tasting_notes = tasting_notes;
     }
 
     public String getBest_uses() {

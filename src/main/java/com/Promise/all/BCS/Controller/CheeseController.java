@@ -45,7 +45,7 @@ public class CheeseController {
         currentCheese.setBeverage7_name(cheese.getBeverage7_name());
         currentCheese.setAging_period(cheese.getAging_period());
         currentCheese.setBest_uses(cheese.getBest_uses());
-        currentCheese.setTaste(currentCheese.getTaste());
+        currentCheese.setTasting_notes(currentCheese.getTasting_notes());
         currentCheese.setType_of_milk(cheese.getType_of_milk());
         currentCheese.setCountry_of_origin(cheese.getCountry_of_origin());
         currentCheese.setNotes(cheese.getNotes());

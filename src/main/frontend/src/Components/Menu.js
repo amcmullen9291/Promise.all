@@ -36,7 +36,7 @@ document.getElementsByClassName("name").disabled = "true";
              let namedCheeseCountry = document.getElementById('cheeseInfoCountry');
              namedCheeseCountry.innerText = cheeseDetails.country_of_origin;
              let namedCheeseNotes = document.getElementById('cheeseInfoTaste');
-             namedCheeseNotes.innerText = cheeseDetails.taste;
+             namedCheeseNotes.innerText = cheeseDetails.tasting_notes;
              clearInterval();
          }, 2000);
          }
@@ -73,7 +73,7 @@ function resetTable(e){
 
  if (Cheeses && Object.keys(Cheeses).length >= 1) {
     var CheeseListings = Cheeses.map(cheese => {
-      const { id, cheese_name } = cheese;
+      const { id, cheese_name, country_of_origin, tasting_notes } = cheese;
       return (
         <>
         <div key={id}>
