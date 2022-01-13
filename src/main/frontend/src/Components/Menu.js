@@ -30,7 +30,6 @@ document.getElementsByClassName("name").disabled = "true";
             document.getElementById("beverageList").style.display = "none";
             document.getElementById("cheeseInfo").style.display = "block";
             let cheeseDetails = Cheeses.find(x => x.id === cheeseID);
-             console.log("Chosen cheese: ", cheeseDetails.cheeseName);
              let namedCheese = document.getElementById('cheeseInfoName');
              namedCheese.innerText = cheeseDetails.cheese_name;
              let namedCheeseCountry = document.getElementById('cheeseInfoCountry');
@@ -73,14 +72,12 @@ function resetTable(e){
 
  if (Cheeses && Object.keys(Cheeses).length >= 1) {
     var CheeseListings = Cheeses.map(cheese => {
-      const { id, cheese_name, country_of_origin, tasting_notes } = cheese;
+      const { id, cheese_name } = cheese;
       return (
         <>
-        <div key={id}>
-            <tr>
+            <tr key={id}>
             <td><button id="cheeseName" className="name" onClick={(e) => {ShowCheeseDetails(e, cheese.id)}}  onMouseOut={(e) => {returnBeveragesTable(e)}} onMouseEnter={(e) => {SortDrinks(e, cheese_name)}}>{cheese.cheese_name}</button></td>
             </tr>
-        </div>
       </>
         )
     })
@@ -91,11 +88,9 @@ function resetTable(e){
         const { id, beverage_name } = beverage;
         return (
           <>
-        <div key={id}>
-            <tr>
+            <tr key={id}>
             <td><button className="drinkName" onClick={(e) => {sortCheeses(e, beverage.beverageName)}}>{beverage.beverageName}</button></td>
             </tr>
-        </div>
         </>
           )
       })
@@ -117,9 +112,6 @@ return (
                 </tbody>
         </table>
               </div>
-            )}
-        </div>
-        <div>
         <div id="cheeseInfo">
         <span id="cheeseInfoName"></span>
         <hr/>
@@ -135,7 +127,6 @@ return (
                         </tbody>
                 </table>
                       </div>
-                    )}
         </div>
         </center>
         <br/>
